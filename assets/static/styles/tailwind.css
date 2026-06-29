@@ -1,0 +1,337 @@
+/* =========================================================================
+   Capital Quiz App — "Atlas"
+   One country per page load, set like a plate from an old world atlas: a large
+   Fraunces serif question over a deep midnight-navy ground, a faint meridian
+   grid behind it, and — after a beat — the capital revealed in brass with its
+   city and country population. Tuned for unattended signage: legible at
+   distance, no interaction, both orientations.
+   ========================================================================= */
+
+@import 'tailwindcss';
+
+/* Design tokens — also generate utilities (bg-night, text-brass, font-display…). */
+@theme {
+  --color-night: #0b1d2a;
+  --color-night-deep: #081521;
+  --color-sea: #163346;
+  --color-paper: #eef1ea;
+  --color-paper-dim: #93a7b4;
+  --color-brass: #d8a657;
+  --color-brass-dim: #b07f3f;
+  --font-display: 'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Webfonts: self-hosted, vendored from Bun-managed @fontsource (sync-fonts.js).
+   Variable "standard" axis = optical-size + weight. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/static/fonts/fraunces-latin-standard-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/static/fonts/fraunces-latin-standard-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/static/fonts/hanken-grotesk-latin-wght-normal.woff2') format('woff2');
+}
+
+@layer base {
+  /* One fluid root drives the whole scale; vw+vh keeps it orientation-neutral
+     so portrait and landscape resolve to the same type size. Children size in
+     rem, so the layout scales cleanly from 480px → 4K with no breakpoints. */
+  :root {
+    font-size: clamp(17px, 1.05vw + 1.05vh, 56px);
+  }
+
+  body {
+    min-height: 100svh;
+    background-color: var(--color-night);
+    color: var(--color-paper);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@layer components {
+  .stage {
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 100svh;
+    padding: clamp(1.5rem, 6vmin, 4rem);
+    overflow: hidden;
+    /* The atlas ground: a faint meridian grid over a soft radial glow, so the
+       deep navy reads as a globe plate rather than a flat fill. */
+    background-image:
+      radial-gradient(circle at 50% 38%, rgba(216, 166, 87, 0.08), transparent 60%),
+      repeating-linear-gradient(to right, rgba(147, 167, 180, 0.06) 0 1px, transparent 1px 5.5rem),
+      repeating-linear-gradient(to bottom, rgba(147, 167, 180, 0.06) 0 1px, transparent 1px 5.5rem);
+    background-color: var(--color-night-deep);
+  }
+
+  .quiz {
+    position: relative;
+    z-index: 1;
+    max-width: 22em;
+    text-align: center;
+  }
+
+  .quiz__question {
+    margin: 0;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    /* Recedes a touch once the answer is in (see reveal state below). */
+    transition: opacity 600ms ease;
+  }
+
+  .quiz__prompt {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.92rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-paper-dim);
+  }
+
+  .quiz__country {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    font-weight: 460;
+    font-size: 3.5rem;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  /* Gilt hairline that bridges the question and the answer once revealed,
+     giving the reveal a clear starting line and filling the gap on note-less
+     entries. Hidden (and collapsed) until the answer is in. */
+  .quiz__rule {
+    width: 2.6rem;
+    height: 2px;
+    margin: 1.7rem auto 0;
+    background-color: var(--color-brass);
+    opacity: 0;
+    transform: scaleX(0.4);
+    transform-origin: center;
+    transition:
+      opacity 700ms ease,
+      transform 700ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+
+  /* The question mark is the held beat before the reveal — brass, oversized,
+     and quietly pulsing while you think. It retires once the answer is in. */
+  .quiz__qmark {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 1;
+    color: var(--color-brass);
+  }
+
+  /* Collapsed (0fr) until the answer is due, then it grows to its natural
+     height — an animatable height with no layout jump and no reserved gap. */
+  .reveal {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    margin-top: 0;
+    transition:
+      grid-template-rows 700ms cubic-bezier(0.2, 0.7, 0.2, 1),
+      opacity 700ms ease,
+      margin-top 700ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+
+  .reveal__inner {
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  .reveal__label {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--color-brass);
+  }
+
+  /* The hero: the answer is the largest, brightest element on the screen. */
+  .reveal__capital {
+    margin: 0.3rem 0 0;
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--color-brass);
+    text-wrap: balance;
+  }
+
+  .reveal__stats {
+    margin: 1.7rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.1rem 2.6rem;
+  }
+
+  .stat {
+    min-width: 9rem;
+  }
+
+  .stat__label {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-paper-dim);
+  }
+
+  .stat__value {
+    margin: 0.35rem 0 0;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: var(--color-paper);
+  }
+
+  .stat__meta {
+    margin: 0.2rem 0 0;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: 0.74rem;
+    letter-spacing: 0.01em;
+    color: var(--color-paper-dim);
+  }
+
+  .reveal__note {
+    margin: 1.4rem auto 0;
+    max-width: 26em;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--color-paper-dim);
+  }
+  /* Empty note (the common case) takes no vertical space. */
+  .reveal__note:empty {
+    display: none;
+  }
+
+  .brand {
+    position: fixed;
+    right: clamp(1rem, 3.2vmin, 2.4rem);
+    bottom: clamp(1rem, 3.2vmin, 2.4rem);
+    display: block;
+    opacity: 0.5;
+    transition: opacity 200ms ease;
+    border-radius: 4px;
+    outline-offset: 6px;
+  }
+
+  .brand:hover,
+  .brand:focus-visible {
+    opacity: 0.9;
+  }
+
+  .brand img {
+    display: block;
+    width: auto;
+    height: clamp(13px, 1.3rem, 26px);
+  }
+
+  /* State overrides MUST live in this layer: the `components` layer outranks
+     `base` in Tailwind v4 regardless of selector specificity, so a reveal rule
+     placed in `base` would lose to `.reveal { grid-template-rows: 0fr }` above.
+     The answer is in: grow the reveal, lift it off the question, stand the
+     question mark down. */
+  :root[data-state='reveal'] .reveal {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    margin-top: 1.4rem;
+  }
+
+  :root[data-state='reveal'] .quiz__qmark {
+    opacity: 0;
+  }
+
+  /* The question recedes so the brass answer is unmistakably the focal point. */
+  :root[data-state='reveal'] .quiz__question {
+    opacity: 0.78;
+  }
+
+  :root[data-state='reveal'] .quiz__rule {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@layer base {
+  /* Reduced motion: no transition — the answer simply appears, fully formed. */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .quiz__question,
+    .quiz__rule {
+      transition: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    /* Entrance for the question on load. */
+    .quiz {
+      animation: quiz-in 800ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    }
+
+    /* The held beat: the brass question mark breathes until the reveal. */
+    .quiz__qmark {
+      animation: qmark-pulse 2.4s ease-in-out infinite;
+      transition: opacity 400ms ease;
+    }
+
+    :root[data-state='reveal'] .quiz__qmark {
+      animation: none;
+    }
+  }
+
+  @keyframes quiz-in {
+    from {
+      opacity: 0;
+      transform: translateY(0.6rem);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes qmark-pulse {
+    0%,
+    100% {
+      opacity: 0.55;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-0.08em);
+    }
+  }
+}

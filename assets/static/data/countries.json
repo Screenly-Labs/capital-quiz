@@ -1,0 +1,2776 @@
+[
+  {
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "capitalPopulation": {
+      "value": 5333284,
+      "year": 2025,
+      "source": "2025 estimate, Afghanistan NSIA (via Wikipedia infobox)"
+    },
+    "countryPopulation": {
+      "value": 42647492,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Albania",
+    "capital": "Tirana",
+    "capitalPopulation": {
+      "value": 389323,
+      "year": 2023,
+      "source": "2023 census, INSTAT"
+    },
+    "countryPopulation": {
+      "value": 2377128,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City proper; the wider Tirana municipality (incl. former communes) had 598,176 in the 2023 census."
+  },
+  {
+    "country": "Algeria",
+    "capital": "Algiers",
+    "capitalPopulation": {
+      "value": 2364230,
+      "year": 2008,
+      "source": "2008 census, ONS Algeria (Office National des Statistiques)"
+    },
+    "countryPopulation": {
+      "value": 46814308,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City/urban agglomeration figure; the Algiers wilaya (province) had ~2.99M at the 2008 census."
+  },
+  {
+    "country": "Andorra",
+    "capital": "Andorra la Vella",
+    "capitalPopulation": {
+      "value": 24042,
+      "year": 2023,
+      "source": "2023 estimate, Departament d'Estadistica (Andorra)"
+    },
+    "countryPopulation": {
+      "value": 81938,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Angola",
+    "capital": "Luanda",
+    "capitalPopulation": {
+      "value": 2194747,
+      "year": 2014,
+      "source": "2014 census, INE Angola (Instituto Nacional de Estatística)"
+    },
+    "countryPopulation": {
+      "value": 37885849,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Luanda Municipality (city proper); the wider Luanda urban agglomeration is several million larger."
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "capitalPopulation": {
+      "value": 22219,
+      "year": 2011,
+      "source": "2011 census, Antigua and Barbuda Statistics Division"
+    },
+    "countryPopulation": {
+      "value": 93772,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Argentina",
+    "capital": "Buenos Aires",
+    "capitalPopulation": {
+      "value": 3121707,
+      "year": 2022,
+      "source": "2022 census (definitive), INDEC"
+    },
+    "countryPopulation": {
+      "value": 45696159,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Armenia",
+    "capital": "Yerevan",
+    "capitalPopulation": {
+      "value": 1136300,
+      "year": 2024,
+      "source": "2024 estimate, Statistical Committee of the Republic of Armenia (Armstat)"
+    },
+    "countryPopulation": {
+      "value": 3033500,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Australia",
+    "capital": "Canberra",
+    "capitalPopulation": {
+      "value": 478540,
+      "year": 2024,
+      "source": "2024 estimate (ERP, 30 Jun 2024), Australian Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 27196812,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Canberra is essentially coextensive with the Australian Capital Territory."
+  },
+  {
+    "country": "Austria",
+    "capital": "Vienna",
+    "capitalPopulation": {
+      "value": 2028289,
+      "year": 2025,
+      "source": "1 Jan 2025, Statistik Austria"
+    },
+    "countryPopulation": {
+      "value": 9177982,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Azerbaijan",
+    "capital": "Baku",
+    "capitalPopulation": {
+      "value": 2300500,
+      "year": 2021,
+      "source": "2021, State Statistical Committee of Azerbaijan (Baku administrative division)"
+    },
+    "countryPopulation": {
+      "value": 10202830,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Bahamas",
+    "capital": "Nassau",
+    "capitalPopulation": {
+      "value": 292522,
+      "year": 2022,
+      "source": "2022 census, Bahamas National Statistical Institute"
+    },
+    "countryPopulation": {
+      "value": 401283,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "New Providence island (which Nassau dominates) had 296,732 at the 2022 census."
+  },
+  {
+    "country": "Bahrain",
+    "capital": "Manama",
+    "capitalPopulation": {
+      "value": 297502,
+      "year": 2012,
+      "source": "2012 estimate, Manama city (via Wikidata/Wikipedia)"
+    },
+    "countryPopulation": {
+      "value": 1588670,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Bahrain's Capital Governorate (which Manama dominates) had 329,510 at the 2020 census."
+  },
+  {
+    "country": "Bangladesh",
+    "capital": "Dhaka",
+    "capitalPopulation": {
+      "value": 10278882,
+      "year": 2022,
+      "source": "2022 census, Bangladesh Bureau of Statistics (Dhaka North + South City Corporations)"
+    },
+    "countryPopulation": {
+      "value": 173562364,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the two Dhaka City Corporations combined (city proper); the wider Dhaka urban agglomeration is far larger (~18-23 million)."
+  },
+  {
+    "country": "Barbados",
+    "capital": "Bridgetown",
+    "capitalPopulation": {
+      "value": 77394,
+      "year": 2021,
+      "source": "2021 census estimate, Barbados Statistical Service (St. Michael parish)"
+    },
+    "countryPopulation": {
+      "value": 282467,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Bridgetown has no modern municipal boundary; figure is St. Michael parish, which contains the city. The city proper is tiny (~6,000) and the greater Bridgetown urban area is ~110,000."
+  },
+  {
+    "country": "Belarus",
+    "capital": "Minsk",
+    "capitalPopulation": {
+      "value": 1992862,
+      "year": 2024,
+      "source": "1 January 2024 estimate, Belstat (National Statistical Committee)"
+    },
+    "countryPopulation": {
+      "value": 9132629,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Belgium",
+    "capital": "Brussels",
+    "capitalPopulation": {
+      "value": 195546,
+      "year": 2024,
+      "source": "1 January 2024 estimate, Statbel (City of Brussels commune)"
+    },
+    "countryPopulation": {
+      "value": 11858610,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "The capital proper is the City of Brussels commune, one of 19 municipalities in the Brussels-Capital Region (~1.25 million)."
+  },
+  {
+    "country": "Belize",
+    "capital": "Belmopan",
+    "capitalPopulation": {
+      "value": 20754,
+      "year": 2022,
+      "source": "2022 census, Statistical Institute of Belize"
+    },
+    "countryPopulation": {
+      "value": 417072,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Benin",
+    "capital": "Porto-Novo",
+    "capitalPopulation": {
+      "value": 264320,
+      "year": 2013,
+      "source": "2013 census (RGPH4), INSAE"
+    },
+    "countryPopulation": {
+      "value": 14462724,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Porto-Novo is the official capital; Cotonou is the seat of government."
+  },
+  {
+    "country": "Bhutan",
+    "capital": "Thimphu",
+    "capitalPopulation": {
+      "value": 114551,
+      "year": 2017,
+      "source": "2017 census, National Statistics Bureau (Thimphu Thromde)"
+    },
+    "countryPopulation": {
+      "value": 791524,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Bolivia",
+    "capital": "Sucre",
+    "capitalPopulation": {
+      "value": 296746,
+      "year": 2024,
+      "source": "2024 census, INE (Sucre municipality)"
+    },
+    "countryPopulation": {
+      "value": 12413315,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Sucre is the constitutional capital; La Paz is the seat of government."
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "capitalPopulation": {
+      "value": 275524,
+      "year": 2013,
+      "source": "2013 census, BHAS"
+    },
+    "countryPopulation": {
+      "value": 3164253,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Botswana",
+    "capital": "Gaborone",
+    "capitalPopulation": {
+      "value": 246325,
+      "year": 2022,
+      "source": "2022 census, Statistics Botswana"
+    },
+    "countryPopulation": {
+      "value": 2521139,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Brazil",
+    "capital": "Brasília",
+    "capitalPopulation": {
+      "value": 2996899,
+      "year": 2025,
+      "source": "2025 estimate, IBGE"
+    },
+    "countryPopulation": {
+      "value": 211998573,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Brasília is coextensive with the Federal District."
+  },
+  {
+    "country": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "capitalPopulation": {
+      "value": 82437,
+      "year": 2021,
+      "source": "2021 census, Department of Economic Planning and Statistics, Brunei (BSB municipality)"
+    },
+    "countryPopulation": {
+      "value": 462721,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Bulgaria",
+    "capital": "Sofia",
+    "capitalPopulation": {
+      "value": 1213134,
+      "year": 2025,
+      "source": "2025 estimate, NSI Bulgaria"
+    },
+    "countryPopulation": {
+      "value": 6441421,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "capitalPopulation": {
+      "value": 2415266,
+      "year": 2019,
+      "source": "2019 census (RGPH), INSD Burkina Faso"
+    },
+    "countryPopulation": {
+      "value": 23548781,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Burundi",
+    "capital": "Gitega",
+    "capitalPopulation": {
+      "value": 135467,
+      "year": 2020,
+      "source": "2020 estimate, ISTEEBU (Gitega commune)"
+    },
+    "countryPopulation": {
+      "value": 14047786,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Gitega became the political capital in 2019; Bujumbura remains the economic centre."
+  },
+  {
+    "country": "Cabo Verde",
+    "capital": "Praia",
+    "capitalPopulation": {
+      "value": 141219,
+      "year": 2021,
+      "source": "2021 census, INE Cabo Verde (city proper)"
+    },
+    "countryPopulation": {
+      "value": 524877,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Praia municipality (concelho) had 145,378 in the 2021 census; the city-proper figure is ~141,219."
+  },
+  {
+    "country": "Cambodia",
+    "capital": "Phnom Penh",
+    "capitalPopulation": {
+      "value": 2281951,
+      "year": 2019,
+      "source": "2019 census, National Institute of Statistics (Cambodia)"
+    },
+    "countryPopulation": {
+      "value": 17638801,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Cameroon",
+    "capital": "Yaoundé",
+    "capitalPopulation": {
+      "value": 2440462,
+      "year": 2012,
+      "source": "2012 BUCREP/INS projection (city proper)"
+    },
+    "countryPopulation": {
+      "value": 29123744,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Canada",
+    "capital": "Ottawa",
+    "capitalPopulation": {
+      "value": 1017449,
+      "year": 2021,
+      "source": "2021 census, Statistics Canada"
+    },
+    "countryPopulation": {
+      "value": 41288599,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Central African Republic",
+    "capital": "Bangui",
+    "capitalPopulation": {
+      "value": 889231,
+      "year": 2020,
+      "source": "2020 ICASEES projection (city proper)"
+    },
+    "countryPopulation": {
+      "value": 5330690,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Chad",
+    "capital": "N'Djamena",
+    "capitalPopulation": {
+      "value": 951418,
+      "year": 2009,
+      "source": "2009 census (RGPH2), INSEED Chad (commune)"
+    },
+    "countryPopulation": {
+      "value": 20299123,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Chile",
+    "capital": "Santiago",
+    "capitalPopulation": {
+      "value": 404495,
+      "year": 2017,
+      "source": "2017 census, INE Chile (comuna de Santiago)"
+    },
+    "countryPopulation": {
+      "value": 19764771,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Santiago is the central commune (city proper, 404,495); the Greater Santiago urban agglomeration had ~6,257,516 in the 2017 census."
+  },
+  {
+    "country": "China",
+    "capital": "Beijing",
+    "capitalPopulation": {
+      "value": 21893095,
+      "year": 2020,
+      "source": "2020 census, National Bureau of Statistics of China"
+    },
+    "countryPopulation": {
+      "value": 1408975000,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Colombia",
+    "capital": "Bogotá",
+    "capitalPopulation": {
+      "value": 8034649,
+      "year": 2024,
+      "source": "2024 projection, DANE (Bogotá Capital District)"
+    },
+    "countryPopulation": {
+      "value": 52886363,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Comoros",
+    "capital": "Moroni",
+    "capitalPopulation": {
+      "value": 74747,
+      "year": 2017,
+      "source": "2017 census (RGPH), INSEED Comores (commune)"
+    },
+    "countryPopulation": {
+      "value": 866628,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Costa Rica",
+    "capital": "San José",
+    "capitalPopulation": {
+      "value": 352381,
+      "year": 2022,
+      "source": "2022 census, INEC"
+    },
+    "countryPopulation": {
+      "value": 5129910,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "capitalPopulation": {
+      "value": 340234,
+      "year": 2021,
+      "source": "2021 census (RGPH), ANStat Côte d'Ivoire"
+    },
+    "countryPopulation": {
+      "value": 31934230,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Yamoussoukro is the official capital; Abidjan is the seat of government."
+  },
+  {
+    "country": "Croatia",
+    "capital": "Zagreb",
+    "capitalPopulation": {
+      "value": 767131,
+      "year": 2021,
+      "source": "2021 census, Croatian Bureau of Statistics (DZS)"
+    },
+    "countryPopulation": {
+      "value": 3866200,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Cuba",
+    "capital": "Havana",
+    "capitalPopulation": {
+      "value": 2137847,
+      "year": 2022,
+      "source": "2022 estimate, ONEI"
+    },
+    "countryPopulation": {
+      "value": 10979783,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Cyprus",
+    "capital": "Nicosia",
+    "capitalPopulation": {
+      "value": 56848,
+      "year": 2021,
+      "source": "2021 census, CyStat (Nicosia municipality)"
+    },
+    "countryPopulation": {
+      "value": 1358282,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Czechia",
+    "capital": "Prague",
+    "capitalPopulation": {
+      "value": 1397880,
+      "year": 2025,
+      "source": "2025 estimate, Czech Statistical Office (ČSÚ)"
+    },
+    "countryPopulation": {
+      "value": 10905028,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "capitalPopulation": {
+      "value": 14565700,
+      "year": 2020,
+      "source": "2020 estimate (Kinshasa city-province)"
+    },
+    "countryPopulation": {
+      "value": 109276265,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "No census since 1984; population is an estimate for the Kinshasa city-province."
+  },
+  {
+    "country": "Denmark",
+    "capital": "Copenhagen",
+    "capitalPopulation": {
+      "value": 667099,
+      "year": 2025,
+      "source": "2025 estimate, Statistics Denmark"
+    },
+    "countryPopulation": {
+      "value": 5976992,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Djibouti",
+    "capital": "Djibouti",
+    "capitalPopulation": {
+      "value": 603900,
+      "year": 2018,
+      "source": "2018 official estimate, DISED"
+    },
+    "countryPopulation": {
+      "value": 1168722,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Dominica",
+    "capital": "Roseau",
+    "capitalPopulation": {
+      "value": 14725,
+      "year": 2011,
+      "source": "2011 census, Central Statistics Office (Dominica)"
+    },
+    "countryPopulation": {
+      "value": 66205,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "capitalPopulation": {
+      "value": 1029110,
+      "year": 2022,
+      "source": "2022 census, ONE"
+    },
+    "countryPopulation": {
+      "value": 11427557,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City proper (Distrito Nacional / Santo Domingo de Guzmán); the Greater Santo Domingo metro area was about 3.8 million in 2022."
+  },
+  {
+    "country": "Ecuador",
+    "capital": "Quito",
+    "capitalPopulation": {
+      "value": 1763275,
+      "year": 2022,
+      "source": "2022 census (urban area), INEC"
+    },
+    "countryPopulation": {
+      "value": 18135478,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Egypt",
+    "capital": "Cairo",
+    "capitalPopulation": {
+      "value": 10248385,
+      "year": 2023,
+      "source": "2023 estimate, CAPMAS (Cairo Governorate)"
+    },
+    "countryPopulation": {
+      "value": 116538258,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Cairo Governorate (city proper); the Greater Cairo metropolitan area is roughly 22 million."
+  },
+  {
+    "country": "El Salvador",
+    "capital": "San Salvador",
+    "capitalPopulation": {
+      "value": 330543,
+      "year": 2024,
+      "source": "2024 census, ONEC (El Salvador)"
+    },
+    "countryPopulation": {
+      "value": 6338193,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Equatorial Guinea",
+    "capital": "Ciudad de la Paz",
+    "capitalPopulation": {
+      "value": 2000,
+      "year": 2022,
+      "source": "Wikidata (P1082) estimate; planned city, sparsely populated"
+    },
+    "countryPopulation": {
+      "value": 1892516,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "By presidential decree of 3 Jan 2026, Ciudad de la Paz (Djibloho) replaced Malabo as the de jure capital; institutions are still relocating. Malabo (~257,000, 2015 census) remains the largest city and economic centre."
+  },
+  {
+    "country": "Eritrea",
+    "capital": "Asmara",
+    "capitalPopulation": {
+      "value": 963000,
+      "year": 2020,
+      "source": "2020 estimate (Eritrea has held no census since 1984; Wikidata)"
+    },
+    "countryPopulation": {
+      "value": 3535603,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Estonia",
+    "capital": "Tallinn",
+    "capitalPopulation": {
+      "value": 457572,
+      "year": 2024,
+      "source": "2024 estimate, Statistics Estonia"
+    },
+    "countryPopulation": {
+      "value": 1372341,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Eswatini",
+    "capital": "Mbabane",
+    "capitalPopulation": {
+      "value": 60691,
+      "year": 2017,
+      "source": "2017 Population and Housing Census, Eswatini Central Statistical Office (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 1242822,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Mbabane is the administrative capital; Lobamba is the royal and legislative capital."
+  },
+  {
+    "country": "Ethiopia",
+    "capital": "Addis Ababa",
+    "capitalPopulation": {
+      "value": 4020000,
+      "year": 2024,
+      "source": "2024 population projection, Ethiopian Statistics Service"
+    },
+    "countryPopulation": {
+      "value": 132059767,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Official city-administration estimate; the wider urban agglomeration is around 5.7 million."
+  },
+  {
+    "country": "Fiji",
+    "capital": "Suva",
+    "capitalPopulation": {
+      "value": 93970,
+      "year": 2017,
+      "source": "2017 Census of Population and Housing, Fiji Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 928784,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Finland",
+    "capital": "Helsinki",
+    "capitalPopulation": {
+      "value": 686595,
+      "year": 2025,
+      "source": "2025 estimate, Statistics Finland"
+    },
+    "countryPopulation": {
+      "value": 5619911,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "France",
+    "capital": "Paris",
+    "capitalPopulation": {
+      "value": 2103778,
+      "year": 2023,
+      "source": "2023 estimate, INSEE"
+    },
+    "countryPopulation": {
+      "value": 68551653,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Gabon",
+    "capital": "Libreville",
+    "capitalPopulation": {
+      "value": 703904,
+      "year": 2013,
+      "source": "2013 census (RGPL), Gabon Direction Générale de la Statistique"
+    },
+    "countryPopulation": {
+      "value": 2538952,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Gambia",
+    "capital": "Banjul",
+    "capitalPopulation": {
+      "value": 31356,
+      "year": 2013,
+      "source": "2013 Population and Housing Census, Gambia Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 2759988,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Banjul city proper is small; the Greater Banjul Area (incl. Kanifing/Serekunda) holds roughly 750,000."
+  },
+  {
+    "country": "Georgia",
+    "capital": "Tbilisi",
+    "capitalPopulation": {
+      "value": 1331485,
+      "year": 2024,
+      "source": "2024 General Population Census, National Statistics Office of Georgia (Geostat)"
+    },
+    "countryPopulation": {
+      "value": 3929581,
+      "year": 2024,
+      "source": "2024 General Population Census, National Statistics Office of Georgia (Geostat)"
+    }
+  },
+  {
+    "country": "Germany",
+    "capital": "Berlin",
+    "capitalPopulation": {
+      "value": 3685265,
+      "year": 2024,
+      "source": "Bevölkerungsstand 31 Dec 2024, Amt für Statistik Berlin-Brandenburg"
+    },
+    "countryPopulation": {
+      "value": 83516593,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Ghana",
+    "capital": "Accra",
+    "capitalPopulation": {
+      "value": 284124,
+      "year": 2021,
+      "source": "2021 census, Ghana Statistical Service"
+    },
+    "countryPopulation": {
+      "value": 34427414,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the Accra Metropolitan District (city proper); the contiguous Accra urban area had 1,782,150 at the 2021 census."
+  },
+  {
+    "country": "Greece",
+    "capital": "Athens",
+    "capitalPopulation": {
+      "value": 643452,
+      "year": 2021,
+      "source": "2021 census, ELSTAT"
+    },
+    "countryPopulation": {
+      "value": 10405134,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Grenada",
+    "capital": "Saint George's",
+    "capitalPopulation": {
+      "value": 2681,
+      "year": 2022,
+      "source": "2022 census, Grenada Central Statistics Office (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 117207,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the town of St. George's proper; the surrounding urban agglomeration is roughly 33,000–37,000."
+  },
+  {
+    "country": "Guatemala",
+    "capital": "Guatemala City",
+    "capitalPopulation": {
+      "value": 1221739,
+      "year": 2023,
+      "source": "2023 projection, INE Guatemala"
+    },
+    "countryPopulation": {
+      "value": 18406359,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Guinea",
+    "capital": "Conakry",
+    "capitalPopulation": {
+      "value": 1667864,
+      "year": 2014,
+      "source": "2014 census (RGPH3), Institut National de la Statistique Guinée"
+    },
+    "countryPopulation": {
+      "value": 14754785,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Guinea-Bissau",
+    "capital": "Bissau",
+    "capitalPopulation": {
+      "value": 387909,
+      "year": 2009,
+      "source": "2009 census, INE Guinea-Bissau"
+    },
+    "countryPopulation": {
+      "value": 2201352,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the 2009 census (latest census); the Bissau urban agglomeration is now considerably larger."
+  },
+  {
+    "country": "Guyana",
+    "capital": "Georgetown",
+    "capitalPopulation": {
+      "value": 118363,
+      "year": 2012,
+      "source": "2012 census, Bureau of Statistics Guyana"
+    },
+    "countryPopulation": {
+      "value": 831087,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is Georgetown city proper (2012 census); the greater Georgetown urban area is roughly 235,000."
+  },
+  {
+    "country": "Haiti",
+    "capital": "Port-au-Prince",
+    "capitalPopulation": {
+      "value": 987310,
+      "year": 2015,
+      "source": "2015 estimate, IHSI Haiti"
+    },
+    "countryPopulation": {
+      "value": 11772557,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Honduras",
+    "capital": "Tegucigalpa",
+    "capitalPopulation": {
+      "value": 1157509,
+      "year": 2013,
+      "source": "2013 census, INE Honduras"
+    },
+    "countryPopulation": {
+      "value": 10825703,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Tegucigalpa forms the Central District (Distrito Central) municipality together with its twin city Comayagüela; figure is the municipality at the 2013 census."
+  },
+  {
+    "country": "Hungary",
+    "capital": "Budapest",
+    "capitalPopulation": {
+      "value": 1685209,
+      "year": 2025,
+      "source": "1 Jan 2025 estimate, KSH (Hungarian Central Statistical Office)"
+    },
+    "countryPopulation": {
+      "value": 9562065,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Iceland",
+    "capital": "Reykjavík",
+    "capitalPopulation": {
+      "value": 138772,
+      "year": 2025,
+      "source": "1 Jan 2025 estimate, Statistics Iceland (Hagstofa)"
+    },
+    "countryPopulation": {
+      "value": 386506,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "India",
+    "capital": "New Delhi",
+    "capitalPopulation": {
+      "value": 249998,
+      "year": 2011,
+      "source": "2011 census (New Delhi/NDMC), Census of India"
+    },
+    "countryPopulation": {
+      "value": 1450935791,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "New Delhi (NDMC) is a small administrative enclave within Delhi; the Delhi NCT urban agglomeration is about 16.3 million (2011 census)."
+  },
+  {
+    "country": "Indonesia",
+    "capital": "Jakarta",
+    "capitalPopulation": {
+      "value": 11135191,
+      "year": 2024,
+      "source": "2024 estimate (DKI Jakarta province/city), BPS-Statistics Indonesia"
+    },
+    "countryPopulation": {
+      "value": 283487931,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Jakarta remains the capital; a planned move to Nusantara is still in transition."
+  },
+  {
+    "country": "Iran",
+    "capital": "Tehran",
+    "capitalPopulation": {
+      "value": 8693706,
+      "year": 2016,
+      "source": "2016 census (Tehran city), Statistical Centre of Iran"
+    },
+    "countryPopulation": {
+      "value": 91567738,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Iraq",
+    "capital": "Baghdad",
+    "capitalPopulation": {
+      "value": 9780429,
+      "year": 2024,
+      "source": "2024 census, Iraq (Baghdad Governorate)"
+    },
+    "countryPopulation": {
+      "value": 46042015,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is Baghdad Governorate (2024 census); Baghdad has no separately published city-proper municipal count."
+  },
+  {
+    "country": "Ireland",
+    "capital": "Dublin",
+    "capitalPopulation": {
+      "value": 592713,
+      "year": 2022,
+      "source": "2022 census, CSO Ireland (Dublin City local authority)"
+    },
+    "countryPopulation": {
+      "value": 5395790,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Israel",
+    "capital": "Jerusalem",
+    "capitalPopulation": {
+      "value": 1050153,
+      "year": 2024,
+      "source": "2024, Israel Central Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 9974400,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Jerusalem is the seat of government; its status is contested internationally."
+  },
+  {
+    "country": "Italy",
+    "capital": "Rome",
+    "capitalPopulation": {
+      "value": 2748109,
+      "year": 2023,
+      "source": "2023 estimate, Istat (Roma Capitale comune)"
+    },
+    "countryPopulation": {
+      "value": 58952704,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Jamaica",
+    "capital": "Kingston",
+    "capitalPopulation": {
+      "value": 672904,
+      "year": 2022,
+      "source": "2022 census, Statistical Institute of Jamaica (Kingston & St Andrew)"
+    },
+    "countryPopulation": {
+      "value": 2839175,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the Kingston & St Andrew municipal corporation area; the wider Kingston-Portmore-Spanish Town agglomeration is ~941,000."
+  },
+  {
+    "country": "Japan",
+    "capital": "Tokyo",
+    "capitalPopulation": {
+      "value": 9733276,
+      "year": 2020,
+      "source": "2020 census, Statistics Bureau of Japan (23 special wards)"
+    },
+    "countryPopulation": {
+      "value": 123975371,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Tokyo has no single city government; the 23 special wards form the city core (~9.7M), while the Tokyo Metropolis prefecture totals ~14.0M."
+  },
+  {
+    "country": "Jordan",
+    "capital": "Amman",
+    "capitalPopulation": {
+      "value": 3696734,
+      "year": 2015,
+      "source": "2015 census, Jordan Department of Statistics (Greater Amman Municipality)"
+    },
+    "countryPopulation": {
+      "value": 11552876,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Kazakhstan",
+    "capital": "Astana",
+    "capitalPopulation": {
+      "value": 1662755,
+      "year": 2026,
+      "source": "2026 estimate, Bureau of National Statistics of Kazakhstan"
+    },
+    "countryPopulation": {
+      "value": 20592571,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Renamed Nur-Sultan 2019-2022, then reverted to Astana."
+  },
+  {
+    "country": "Kenya",
+    "capital": "Nairobi",
+    "capitalPopulation": {
+      "value": 4397073,
+      "year": 2019,
+      "source": "2019 census, Kenya National Bureau of Statistics (Nairobi City County)"
+    },
+    "countryPopulation": {
+      "value": 56432944,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Kiribati",
+    "capital": "South Tarawa",
+    "capitalPopulation": {
+      "value": 63439,
+      "year": 2020,
+      "source": "2020 census, Kiribati National Statistics Office"
+    },
+    "countryPopulation": {
+      "value": 134518,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Government sits on South Tarawa atoll; sometimes given as Tarawa."
+  },
+  {
+    "country": "Kuwait",
+    "capital": "Kuwait City",
+    "capitalPopulation": {
+      "value": 55159,
+      "year": 2021,
+      "source": "2021 census, Kuwait (Al-Kuwayt city proper)"
+    },
+    "countryPopulation": {
+      "value": 4897263,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Kuwait City proper (historic core) is small; the surrounding urban agglomeration holds ~3 million and the Capital Governorate ~575,000."
+  },
+  {
+    "country": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "capitalPopulation": {
+      "value": 1120827,
+      "year": 2022,
+      "source": "2022 census, National Statistical Committee of the Kyrgyz Republic"
+    },
+    "countryPopulation": {
+      "value": 7221868,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Laos",
+    "capital": "Vientiane",
+    "capitalPopulation": {
+      "value": 840940,
+      "year": 2023,
+      "source": "2023 census, Lao Statistics Bureau"
+    },
+    "countryPopulation": {
+      "value": 7769819,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Latvia",
+    "capital": "Riga",
+    "capitalPopulation": {
+      "value": 591882,
+      "year": 2025,
+      "source": "2025 estimate, Central Statistical Bureau of Latvia"
+    },
+    "countryPopulation": {
+      "value": 1866124,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Lebanon",
+    "capital": "Beirut",
+    "capitalPopulation": {
+      "value": 433249,
+      "year": 2017,
+      "source": "2017 estimate, UN-Habitat"
+    },
+    "countryPopulation": {
+      "value": 5805962,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City-proper estimate; Greater Beirut metro is roughly 2.4 million. Lebanon has held no national census since 1932."
+  },
+  {
+    "country": "Lesotho",
+    "capital": "Maseru",
+    "capitalPopulation": {
+      "value": 343541,
+      "year": 2016,
+      "source": "2016 census, Bureau of Statistics Lesotho"
+    },
+    "countryPopulation": {
+      "value": 2337423,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Liberia",
+    "capital": "Monrovia",
+    "capitalPopulation": {
+      "value": 1761032,
+      "year": 2022,
+      "source": "2022 census, LISGIS (Greater Monrovia district)"
+    },
+    "countryPopulation": {
+      "value": 5612817,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is Greater Monrovia district from the 2022 census."
+  },
+  {
+    "country": "Libya",
+    "capital": "Tripoli",
+    "capitalPopulation": {
+      "value": 1176000,
+      "year": 2022,
+      "source": "2022 estimate (no census since 2006)"
+    },
+    "countryPopulation": {
+      "value": 7381023,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Liechtenstein",
+    "capital": "Vaduz",
+    "capitalPopulation": {
+      "value": 5668,
+      "year": 2019,
+      "source": "2019, Office of Statistics Liechtenstein"
+    },
+    "countryPopulation": {
+      "value": 40450,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Lithuania",
+    "capital": "Vilnius",
+    "capitalPopulation": {
+      "value": 617984,
+      "year": 2026,
+      "source": "2026 estimate, Statistics Lithuania"
+    },
+    "countryPopulation": {
+      "value": 2888278,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Luxembourg",
+    "capital": "Luxembourg",
+    "capitalPopulation": {
+      "value": 137696,
+      "year": 2025,
+      "source": "2025 estimate, Ville de Luxembourg (VDL)"
+    },
+    "countryPopulation": {
+      "value": 677012,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Madagascar",
+    "capital": "Antananarivo",
+    "capitalPopulation": {
+      "value": 1275207,
+      "year": 2018,
+      "source": "2018 census (RGPH-3), INSTAT Madagascar"
+    },
+    "countryPopulation": {
+      "value": 31964956,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Malawi",
+    "capital": "Lilongwe",
+    "capitalPopulation": {
+      "value": 989318,
+      "year": 2018,
+      "source": "2018 census, National Statistical Office of Malawi"
+    },
+    "countryPopulation": {
+      "value": 21655286,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "capitalPopulation": {
+      "value": 1982112,
+      "year": 2020,
+      "source": "2020 census, Department of Statistics Malaysia (DOSM)"
+    },
+    "countryPopulation": {
+      "value": 35557673,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Kuala Lumpur is the official capital; Putrajaya is the administrative centre. The Greater KL/Klang Valley metro area holds ~8-9 million."
+  },
+  {
+    "country": "Maldives",
+    "capital": "Malé",
+    "capitalPopulation": {
+      "value": 211908,
+      "year": 2022,
+      "source": "2022 census, Maldives Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 527799,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Mali",
+    "capital": "Bamako",
+    "capitalPopulation": {
+      "value": 4227569,
+      "year": 2022,
+      "source": "2022 census (RGPH), INSTAT Mali"
+    },
+    "countryPopulation": {
+      "value": 24478595,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Malta",
+    "capital": "Valletta",
+    "capitalPopulation": {
+      "value": 5157,
+      "year": 2021,
+      "source": "2021 census, NSO Malta"
+    },
+    "countryPopulation": {
+      "value": 568847,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Marshall Islands",
+    "capital": "Majuro",
+    "capitalPopulation": {
+      "value": 23156,
+      "year": 2021,
+      "source": "2021 census, RMI EPPSO"
+    },
+    "countryPopulation": {
+      "value": 37548,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Mauritania",
+    "capital": "Nouakchott",
+    "capitalPopulation": {
+      "value": 1446761,
+      "year": 2023,
+      "source": "2023 census (RGPH), ANSADE Mauritania"
+    },
+    "countryPopulation": {
+      "value": 5169395,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Mauritius",
+    "capital": "Port Louis",
+    "capitalPopulation": {
+      "value": 140403,
+      "year": 2022,
+      "source": "2022 census, Statistics Mauritius"
+    },
+    "countryPopulation": {
+      "value": 1245779,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Mexico",
+    "capital": "Mexico City",
+    "capitalPopulation": {
+      "value": 9209944,
+      "year": 2020,
+      "source": "2020 census, INEGI"
+    },
+    "countryPopulation": {
+      "value": 130861007,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Micronesia",
+    "capital": "Palikir",
+    "capitalPopulation": {
+      "value": 4645,
+      "year": 2010,
+      "source": "2010 census era (Palikir village), FSM Statistics; approximate"
+    },
+    "countryPopulation": {
+      "value": 113160,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Palikir is a small village seat of government within Sokehs municipality (~6,600-6,900); no precise city-proper census figure is published."
+  },
+  {
+    "country": "Moldova",
+    "capital": "Chișinău",
+    "capitalPopulation": {
+      "value": 567038,
+      "year": 2024,
+      "source": "2024 census, National Bureau of Statistics (Moldova)"
+    },
+    "countryPopulation": {
+      "value": 2402306,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Chișinău municipality (incl. surrounding communities) had ~720,000 in the 2024 census; figure here is the city proper."
+  },
+  {
+    "country": "Monaco",
+    "capital": "Monaco",
+    "capitalPopulation": {
+      "value": 38423,
+      "year": 2024,
+      "source": "2024 census, IMSEE (Monaco statistics office)"
+    },
+    "countryPopulation": {
+      "value": 38631,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Monaco is a city-state, so the capital and country populations effectively coincide."
+  },
+  {
+    "country": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "capitalPopulation": {
+      "value": 1539252,
+      "year": 2021,
+      "source": "2021 figure, National Statistical Office of Mongolia (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 3524788,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Montenegro",
+    "capital": "Podgorica",
+    "capitalPopulation": {
+      "value": 173024,
+      "year": 2023,
+      "source": "2023 census, MONSTAT (Podgorica city settlement)"
+    },
+    "countryPopulation": {
+      "value": 623525,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Morocco",
+    "capital": "Rabat",
+    "capitalPopulation": {
+      "value": 515619,
+      "year": 2024,
+      "source": "2024 census (RGPH), Haut-Commissariat au Plan (HCP)"
+    },
+    "countryPopulation": {
+      "value": 38081173,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Mozambique",
+    "capital": "Maputo",
+    "capitalPopulation": {
+      "value": 1080277,
+      "year": 2017,
+      "source": "2017 census, Instituto Nacional de Estatística (INE)"
+    },
+    "countryPopulation": {
+      "value": 34631766,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Myanmar",
+    "capital": "Naypyidaw",
+    "capitalPopulation": {
+      "value": 1160242,
+      "year": 2014,
+      "source": "2014 census, Department of Population, Myanmar (Naypyidaw Union Territory)"
+    },
+    "countryPopulation": {
+      "value": 54500091,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is for the Naypyidaw Union Territory; the city proper is considerably smaller."
+  },
+  {
+    "country": "Namibia",
+    "capital": "Windhoek",
+    "capitalPopulation": {
+      "value": 486169,
+      "year": 2023,
+      "source": "2023 census, Namibia Statistics Agency"
+    },
+    "countryPopulation": {
+      "value": 3030131,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Nauru",
+    "capital": "Yaren",
+    "capitalPopulation": {
+      "value": 803,
+      "year": 2021,
+      "source": "2021 census, Nauru Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 11947,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Nauru has no official capital; Yaren is the de facto seat of government."
+  },
+  {
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "capitalPopulation": {
+      "value": 845767,
+      "year": 2021,
+      "source": "2021 census, Central Bureau of Statistics (Nepal)"
+    },
+    "countryPopulation": {
+      "value": 29651054,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Netherlands",
+    "capital": "Amsterdam",
+    "capitalPopulation": {
+      "value": 921468,
+      "year": 2023,
+      "source": "1 Jan 2023, CBS (Statistics Netherlands)"
+    },
+    "countryPopulation": {
+      "value": 17993485,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Amsterdam is the constitutional capital; The Hague is the seat of government."
+  },
+  {
+    "country": "New Zealand",
+    "capital": "Wellington",
+    "capitalPopulation": {
+      "value": 216200,
+      "year": 2023,
+      "source": "2023 estimated resident population, Stats NZ"
+    },
+    "countryPopulation": {
+      "value": 5287500,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Nicaragua",
+    "capital": "Managua",
+    "capitalPopulation": {
+      "value": 1055111,
+      "year": 2023,
+      "source": "2023 estimate, INIDE (Managua city/urban)"
+    },
+    "countryPopulation": {
+      "value": 6916140,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Niger",
+    "capital": "Niamey",
+    "capitalPopulation": {
+      "value": 1496260,
+      "year": 2024,
+      "source": "2024 estimate, Niamey Urban Community (Wikidata P1082)"
+    },
+    "countryPopulation": {
+      "value": 27032412,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Nigeria",
+    "capital": "Abuja",
+    "capitalPopulation": {
+      "value": 1693400,
+      "year": 2022,
+      "source": "2022 estimate (city proper); no recent census"
+    },
+    "countryPopulation": {
+      "value": 232679478,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Abuja city lies within the Federal Capital Territory (population ~3.6 million)."
+  },
+  {
+    "country": "North Korea",
+    "capital": "Pyongyang",
+    "capitalPopulation": {
+      "value": 3255288,
+      "year": 2008,
+      "source": "2008 census, DPRK Central Bureau of Statistics (UN-supported national report)"
+    },
+    "countryPopulation": {
+      "value": 26498823,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "North Macedonia",
+    "capital": "Skopje",
+    "capitalPopulation": {
+      "value": 422540,
+      "year": 2021,
+      "source": "2021 census, State Statistical Office (settlement of Skopje)"
+    },
+    "countryPopulation": {
+      "value": 1824359,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Norway",
+    "capital": "Oslo",
+    "capitalPopulation": {
+      "value": 717710,
+      "year": 2024,
+      "source": "1 Jan 2024, Statistics Norway (SSB)"
+    },
+    "countryPopulation": {
+      "value": 5572279,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Oman",
+    "capital": "Muscat",
+    "capitalPopulation": {
+      "value": 31317,
+      "year": 2020,
+      "source": "2020 census, Oman National Centre for Statistics and Information (wilayat of Muscat)"
+    },
+    "countryPopulation": {
+      "value": 5281538,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the wilayat (district) of Muscat proper; the greater Muscat capital area (Muscat Governorate) had about 1.3 million in the 2020 census."
+  },
+  {
+    "country": "Pakistan",
+    "capital": "Islamabad",
+    "capitalPopulation": {
+      "value": 1108872,
+      "year": 2023,
+      "source": "2023 census (urban), Pakistan Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 251269164,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Palau",
+    "capital": "Ngerulmud",
+    "capitalPopulation": {
+      "value": 318,
+      "year": 2020,
+      "source": "2020 census, Palau Office of Planning and Statistics (Melekeok state)"
+    },
+    "countryPopulation": {
+      "value": 17695,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Ngerulmud is a purpose-built capital with no permanent residents; figure shown is surrounding Melekeok state (2020 census)."
+  },
+  {
+    "country": "Panama",
+    "capital": "Panama City",
+    "capitalPopulation": {
+      "value": 1086990,
+      "year": 2023,
+      "source": "2023 census, INEC Panama (distrito de Panamá)"
+    },
+    "countryPopulation": {
+      "value": 4515577,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "capitalPopulation": {
+      "value": 756754,
+      "year": 2024,
+      "source": "2024 census, PNG National Statistical Office (National Capital District)"
+    },
+    "countryPopulation": {
+      "value": 10576502,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Paraguay",
+    "capital": "Asunción",
+    "capitalPopulation": {
+      "value": 462241,
+      "year": 2022,
+      "source": "2022 census, INE Paraguay (Asunción capital district)"
+    },
+    "countryPopulation": {
+      "value": 6929153,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Peru",
+    "capital": "Lima",
+    "capitalPopulation": {
+      "value": 10004141,
+      "year": 2022,
+      "source": "2022 estimate, INEI (Lima Province)"
+    },
+    "countryPopulation": {
+      "value": 34217848,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Lima city is administered as Lima Province (43 districts) by the Metropolitan Municipality of Lima; the central district alone (Cercado de Lima) has only about 270,000."
+  },
+  {
+    "country": "Philippines",
+    "capital": "Manila",
+    "capitalPopulation": {
+      "value": 1902590,
+      "year": 2024,
+      "source": "2024 census (POPCEN), Philippine Statistics Authority"
+    },
+    "countryPopulation": {
+      "value": 115843670,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City of Manila proper, one of 16 cities in Metro Manila (NCR pop 14.0M, 2024)."
+  },
+  {
+    "country": "Poland",
+    "capital": "Warsaw",
+    "capitalPopulation": {
+      "value": 1862402,
+      "year": 2024,
+      "source": "2024 estimate, Statistics Poland (GUS)"
+    },
+    "countryPopulation": {
+      "value": 36559233,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Portugal",
+    "capital": "Lisbon",
+    "capitalPopulation": {
+      "value": 545796,
+      "year": 2021,
+      "source": "2021 census, INE (Statistics Portugal)"
+    },
+    "countryPopulation": {
+      "value": 10694681,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Qatar",
+    "capital": "Doha",
+    "capitalPopulation": {
+      "value": 1186023,
+      "year": 2020,
+      "source": "2020 census, Qatar Planning and Statistics Authority"
+    },
+    "countryPopulation": {
+      "value": 2857822,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "capitalPopulation": {
+      "value": 2145783,
+      "year": 2023,
+      "source": "2023 census (RGPH-5), INS-Congo"
+    },
+    "countryPopulation": {
+      "value": 6332961,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Romania",
+    "capital": "Bucharest",
+    "capitalPopulation": {
+      "value": 1716961,
+      "year": 2021,
+      "source": "2021 census, National Institute of Statistics (INS)"
+    },
+    "countryPopulation": {
+      "value": 19051804,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Russia",
+    "capital": "Moscow",
+    "capitalPopulation": {
+      "value": 13274285,
+      "year": 2025,
+      "source": "2025 estimate, Rosstat (Russian Federal State Statistics Service)"
+    },
+    "countryPopulation": {
+      "value": 143533851,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Rwanda",
+    "capital": "Kigali",
+    "capitalPopulation": {
+      "value": 1745555,
+      "year": 2022,
+      "source": "2022 census, National Institute of Statistics of Rwanda (NISR)"
+    },
+    "countryPopulation": {
+      "value": 14256567,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "capitalPopulation": {
+      "value": 11400,
+      "year": 2011,
+      "source": "2011 census, St. Kitts & Nevis Statistics Division (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 46843,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Saint Lucia",
+    "capital": "Castries",
+    "capitalPopulation": {
+      "value": 20000,
+      "year": 2013,
+      "source": "2013 estimate, Castries urban area (Wikipedia infobox / citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 179744,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is the Castries urban area; the city-proper quarter has only a few hundred residents and Castries District ~70,000."
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "capitalPopulation": {
+      "value": 12909,
+      "year": 2012,
+      "source": "2012 census, St. Vincent & the Grenadines Statistical Office (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 100616,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Greater Kingstown agglomeration ~26,400 (2023 census)."
+  },
+  {
+    "country": "Samoa",
+    "capital": "Apia",
+    "capitalPopulation": {
+      "value": 35974,
+      "year": 2021,
+      "source": "2021 census, Apia Urban Area, Samoa Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 218019,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Apia has no municipal boundary; figure is the Apia Urban Area."
+  },
+  {
+    "country": "San Marino",
+    "capital": "San Marino",
+    "capitalPopulation": {
+      "value": 4158,
+      "year": 2025,
+      "source": "2025 estimate, San Marino Office of Statistics (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 33977,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "capital": "São Tomé",
+    "capitalPopulation": {
+      "value": 66888,
+      "year": 2012,
+      "source": "2012 census, INE São Tomé and Príncipe (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 235536,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "capital": "Riyadh",
+    "capitalPopulation": {
+      "value": 7009100,
+      "year": 2022,
+      "source": "2022 census, General Authority for Statistics (GASTAT)"
+    },
+    "countryPopulation": {
+      "value": 35300280,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Senegal",
+    "capital": "Dakar",
+    "capitalPopulation": {
+      "value": 1278469,
+      "year": 2023,
+      "source": "2023 census (RGPH-5), Dakar Department, ANSD"
+    },
+    "countryPopulation": {
+      "value": 18501984,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Ville de Dakar = Dakar Department; greater Dakar Region ~4.0M."
+  },
+  {
+    "country": "Serbia",
+    "capital": "Belgrade",
+    "capitalPopulation": {
+      "value": 1197714,
+      "year": 2022,
+      "source": "2022 census, Statistical Office of the Republic of Serbia"
+    },
+    "countryPopulation": {
+      "value": 6586476,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Seychelles",
+    "capital": "Victoria",
+    "capitalPopulation": {
+      "value": 29664,
+      "year": 2022,
+      "source": "2022 census (Greater Victoria), Seychelles National Bureau of Statistics (via citypopulation.de)"
+    },
+    "countryPopulation": {
+      "value": 121354,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Victoria is reported as Greater Victoria across several districts; there is no single city-proper boundary."
+  },
+  {
+    "country": "Sierra Leone",
+    "capital": "Freetown",
+    "capitalPopulation": {
+      "value": 1055964,
+      "year": 2015,
+      "source": "2015 census, Statistics Sierra Leone"
+    },
+    "countryPopulation": {
+      "value": 8642022,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Singapore",
+    "capital": "Singapore",
+    "capitalPopulation": {
+      "value": 6040000,
+      "year": 2024,
+      "source": "2024 estimate, Singapore Department of Statistics (Population in Brief 2024)"
+    },
+    "countryPopulation": {
+      "value": 6036860,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City-state: the capital's population equals the whole country."
+  },
+  {
+    "country": "Slovakia",
+    "capital": "Bratislava",
+    "capitalPopulation": {
+      "value": 480902,
+      "year": 2025,
+      "source": "2025 estimate, Statistical Office of the Slovak Republic"
+    },
+    "countryPopulation": {
+      "value": 5422069,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Slovenia",
+    "capital": "Ljubljana",
+    "capitalPopulation": {
+      "value": 298230,
+      "year": 2024,
+      "source": "2024 estimate, SURS (Ljubljana City Municipality, mid-2024)"
+    },
+    "countryPopulation": {
+      "value": 2127400,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Solomon Islands",
+    "capital": "Honiara",
+    "capitalPopulation": {
+      "value": 129569,
+      "year": 2019,
+      "source": "2019 census, Solomon Islands National Statistics Office"
+    },
+    "countryPopulation": {
+      "value": 819198,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Somalia",
+    "capital": "Mogadishu",
+    "capitalPopulation": {
+      "value": 2120000,
+      "year": 2015,
+      "source": "2015 UN estimate (no recent census)"
+    },
+    "countryPopulation": {
+      "value": 19009151,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "No recent census; capital population is an estimate."
+  },
+  {
+    "country": "South Africa",
+    "capital": "Pretoria",
+    "capitalPopulation": {
+      "value": 741651,
+      "year": 2011,
+      "source": "2011 census, Statistics South Africa (Pretoria main place)"
+    },
+    "countryPopulation": {
+      "value": 64007187,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Pretoria is the administrative capital; Cape Town is legislative and Bloemfontein judicial."
+  },
+  {
+    "country": "South Korea",
+    "capital": "Seoul",
+    "capitalPopulation": {
+      "value": 9668465,
+      "year": 2020,
+      "source": "2020 Population and Housing Census, KOSIS (Statistics Korea)"
+    },
+    "countryPopulation": {
+      "value": 51751065,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "South Sudan",
+    "capital": "Juba",
+    "capitalPopulation": {
+      "value": 500088,
+      "year": 2025,
+      "source": "2025 estimate (projection; no recent census)"
+    },
+    "countryPopulation": {
+      "value": 11943408,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "No recent census; capital population is an estimate."
+  },
+  {
+    "country": "Spain",
+    "capital": "Madrid",
+    "capitalPopulation": {
+      "value": 3527924,
+      "year": 2025,
+      "source": "Padron Municipal 1 Jan 2025, INE / Ayuntamiento de Madrid"
+    },
+    "countryPopulation": {
+      "value": 48848840,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "capitalPopulation": {
+      "value": 96189,
+      "year": 2024,
+      "source": "2024 census, Department of Census and Statistics, Sri Lanka"
+    },
+    "countryPopulation": {
+      "value": 21916000,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Administrative capital; Colombo is the commercial capital and largest city."
+  },
+  {
+    "country": "Sudan",
+    "capital": "Khartoum",
+    "capitalPopulation": {
+      "value": 1410858,
+      "year": 2008,
+      "source": "2008 census, Sudan Central Bureau of Statistics"
+    },
+    "countryPopulation": {
+      "value": 50448963,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Khartoum city proper (2008 census); Greater Khartoum, with Omdurman and Bahri, exceeds 5 million."
+  },
+  {
+    "country": "Suriname",
+    "capital": "Paramaribo",
+    "capitalPopulation": {
+      "value": 240924,
+      "year": 2012,
+      "source": "2012 census, General Bureau of Statistics (ABS), Suriname"
+    },
+    "countryPopulation": {
+      "value": 634431,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Sweden",
+    "capital": "Stockholm",
+    "capitalPopulation": {
+      "value": 984748,
+      "year": 2022,
+      "source": "2022, Statistics Sweden (SCB) municipality population"
+    },
+    "countryPopulation": {
+      "value": 10569709,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Switzerland",
+    "capital": "Bern",
+    "capitalPopulation": {
+      "value": 138489,
+      "year": 2025,
+      "source": "2025 estimate, Swiss Federal Statistical Office (BFS)"
+    },
+    "countryPopulation": {
+      "value": 9005582,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Syria",
+    "capital": "Damascus",
+    "capitalPopulation": {
+      "value": 1552161,
+      "year": 2004,
+      "source": "2004 census, Central Bureau of Statistics (Syria)"
+    },
+    "countryPopulation": {
+      "value": 24672760,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City proper from the 2004 census, Syria's last; metropolitan Damascus is estimated around 2.8 million (2024)."
+  },
+  {
+    "country": "Tajikistan",
+    "capital": "Dushanbe",
+    "capitalPopulation": {
+      "value": 1201800,
+      "year": 2022,
+      "source": "2022 estimate, Statistical Agency of Tajikistan"
+    },
+    "countryPopulation": {
+      "value": 10590927,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Tanzania",
+    "capital": "Dodoma",
+    "capitalPopulation": {
+      "value": 765179,
+      "year": 2022,
+      "source": "2022 census, National Bureau of Statistics (Tanzania)"
+    },
+    "countryPopulation": {
+      "value": 68560157,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Dodoma is the official capital; Dar es Salaam is the largest city."
+  },
+  {
+    "country": "Thailand",
+    "capital": "Bangkok",
+    "capitalPopulation": {
+      "value": 5676648,
+      "year": 2018,
+      "source": "2018 registered population, Department of Provincial Administration (Thailand)"
+    },
+    "countryPopulation": {
+      "value": 71668011,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Registered city population; the 2010 census recorded about 8.3 million in Bangkok."
+  },
+  {
+    "country": "Timor-Leste",
+    "capital": "Dili",
+    "capitalPopulation": {
+      "value": 324269,
+      "year": 2022,
+      "source": "2022 census, Statistics Timor-Leste (INETL)"
+    },
+    "countryPopulation": {
+      "value": 1400638,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Dili municipality (2022 census); about 82% of it is urban."
+  },
+  {
+    "country": "Togo",
+    "capital": "Lomé",
+    "capitalPopulation": {
+      "value": 2188376,
+      "year": 2022,
+      "source": "2022 census (RGPH-5), INSEED Togo"
+    },
+    "countryPopulation": {
+      "value": 9515236,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is Grand Lomé (the capital and its suburbs) from the 2022 census."
+  },
+  {
+    "country": "Tonga",
+    "capital": "Nuku'alofa",
+    "capitalPopulation": {
+      "value": 23221,
+      "year": 2016,
+      "source": "2016 census, Tonga Statistics Department"
+    },
+    "countryPopulation": {
+      "value": 104175,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "capitalPopulation": {
+      "value": 37074,
+      "year": 2011,
+      "source": "2011 census, Central Statistical Office (Trinidad and Tobago)"
+    },
+    "countryPopulation": {
+      "value": 1368333,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "City proper ~37k; the urban agglomeration is roughly 81,000."
+  },
+  {
+    "country": "Tunisia",
+    "capital": "Tunis",
+    "capitalPopulation": {
+      "value": 604599,
+      "year": 2024,
+      "source": "2024 census, Institut National de la Statistique (INS)"
+    },
+    "countryPopulation": {
+      "value": 12277109,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Turkey",
+    "capital": "Ankara",
+    "capitalPopulation": {
+      "value": 5293367,
+      "year": 2025,
+      "source": "2025 address-based registration (urban area), TÜİK"
+    },
+    "countryPopulation": {
+      "value": 85518661,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Figure is Ankara's urban area; the metropolitan municipality (province-wide) is ~5.91 million."
+  },
+  {
+    "country": "Turkmenistan",
+    "capital": "Ashgabat",
+    "capitalPopulation": {
+      "value": 1030063,
+      "year": 2022,
+      "source": "2022 census, State Statistics Committee of Turkmenistan"
+    },
+    "countryPopulation": {
+      "value": 7494498,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Tuvalu",
+    "capital": "Funafuti",
+    "capitalPopulation": {
+      "value": 6320,
+      "year": 2017,
+      "source": "2017 mini-census, Tuvalu Central Statistics Division"
+    },
+    "countryPopulation": {
+      "value": 9646,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Uganda",
+    "capital": "Kampala",
+    "capitalPopulation": {
+      "value": 1797722,
+      "year": 2024,
+      "source": "2024 census, Uganda Bureau of Statistics (UBOS)"
+    },
+    "countryPopulation": {
+      "value": 50015092,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Ukraine",
+    "capital": "Kyiv",
+    "capitalPopulation": {
+      "value": 2952301,
+      "year": 2022,
+      "source": "2022 estimate, State Statistics Service of Ukraine"
+    },
+    "countryPopulation": {
+      "value": 37860221,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "capitalPopulation": {
+      "value": 1570000,
+      "year": 2023,
+      "source": "2023 estimate (city), various"
+    },
+    "countryPopulation": {
+      "value": 10986400,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Abu Dhabi city only; the Abu Dhabi Region (city plus surroundings) was 2.50 million and the emirate 3.79 million in the 2023 census."
+  },
+  {
+    "country": "United Kingdom",
+    "capital": "London",
+    "capitalPopulation": {
+      "value": 8799728,
+      "year": 2021,
+      "source": "2021 census, Office for National Statistics (ONS)"
+    },
+    "countryPopulation": {
+      "value": 69226000,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "United States",
+    "capital": "Washington, D.C.",
+    "capitalPopulation": {
+      "value": 689545,
+      "year": 2020,
+      "source": "2020 census, U.S. Census Bureau"
+    },
+    "countryPopulation": {
+      "value": 340110988,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Uruguay",
+    "capital": "Montevideo",
+    "capitalPopulation": {
+      "value": 1302954,
+      "year": 2023,
+      "source": "2023 census, Instituto Nacional de Estadística (INE)"
+    },
+    "countryPopulation": {
+      "value": 3386588,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Uzbekistan",
+    "capital": "Tashkent",
+    "capitalPopulation": {
+      "value": 2956384,
+      "year": 2023,
+      "source": "2023 estimate, Statistics Agency of Uzbekistan"
+    },
+    "countryPopulation": {
+      "value": 36361859,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Vanuatu",
+    "capital": "Port Vila",
+    "capitalPopulation": {
+      "value": 49034,
+      "year": 2020,
+      "source": "2020 census, Vanuatu National Statistics Office (VNSO)"
+    },
+    "countryPopulation": {
+      "value": 327777,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Venezuela",
+    "capital": "Caracas",
+    "capitalPopulation": {
+      "value": 2245744,
+      "year": 2017,
+      "source": "2017 INE projection (Municipio Libertador), Instituto Nacional de Estadística"
+    },
+    "countryPopulation": {
+      "value": 28405543,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Vietnam",
+    "capital": "Hanoi",
+    "capitalPopulation": {
+      "value": 8685607,
+      "year": 2024,
+      "source": "2024 census, General Statistics Office of Vietnam (GSO)"
+    },
+    "countryPopulation": {
+      "value": 100987686,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Yemen",
+    "capital": "Sana'a",
+    "capitalPopulation": {
+      "value": 3407814,
+      "year": 2024,
+      "source": "2024 estimate (Yemen CSO projection, per Wikipedia infobox)"
+    },
+    "countryPopulation": {
+      "value": 40583164,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Sana'a is the constitutional capital (Houthi-controlled); Aden serves as the internationally recognized government's temporary seat."
+  },
+  {
+    "country": "Zambia",
+    "capital": "Lusaka",
+    "capitalPopulation": {
+      "value": 2204059,
+      "year": 2022,
+      "source": "2022 census, Zambia Statistics Agency"
+    },
+    "countryPopulation": {
+      "value": 21314956,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    }
+  },
+  {
+    "country": "Zimbabwe",
+    "capital": "Harare",
+    "capitalPopulation": {
+      "value": 1849617,
+      "year": 2022,
+      "source": "2022 census, ZIMSTAT (Harare Urban district)"
+    },
+    "countryPopulation": {
+      "value": 16634373,
+      "year": 2024,
+      "source": "World Bank (SP.POP.TOTL)"
+    },
+    "note": "Harare metropolitan province had ~2,487,209 people at the 2022 census."
+  }
+]
