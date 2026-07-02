@@ -61,6 +61,17 @@ re-checked against official sources before it ships. Each figure carries its
 `CLAUDE.md` and `scripts/verification-report.md` for the full pipeline and audit
 trail.
 
+## App-store manifest
+
+The app publishes a machine-readable [signage-app manifest](.well-known/signage-app.json)
+that the [app store](https://signage-apps.com) and signage players read to render
+its store listing and launch it. `build.js` copies it verbatim to
+`/.well-known/signage-app.json` at the site root, where GitHub Pages serves it as
+`application/json` with `Access-Control-Allow-Origin: *`. Capital Quiz takes no
+settings and does no rotation or data refresh, so — like the quotes app — the
+manifest carries neither a `settings` block nor `playback`; `launch` is just the
+base URL. `test/manifest.test.ts` guards its invariants.
+
 ## Supported resolutions
 
 The layout is fluid (one `clamp()`-driven root size, orientation-neutral). Verified

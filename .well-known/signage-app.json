@@ -1,0 +1,13 @@
+{
+  "manifestVersion": "1",
+  "id": "capital-quiz",
+  "name": "Capital Quiz",
+  "description": "A full-screen capital-city quiz for digital signage. Each load draws one of the 193 UN member states and asks for its capital, then reveals the answer with both the city and country population — each labelled with its census or estimate year and source.",
+  "summary": "A capital-city quiz for any display.",
+  "vendor": "Screenly",
+  "tags": ["Quiz", "Geography", "Education"],
+  "homepage": "https://capitals.srly.io/",
+  "source": "https://github.com/Screenly-Labs/capital-quiz",
+  "support": "https://github.com/Screenly-Labs/capital-quiz/issues",
+  "launch": { "baseUrl": "https://capitals.srly.io/" }
+}
