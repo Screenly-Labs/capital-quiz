@@ -8,12 +8,19 @@
    ========================================================================= */
 
 @import 'tailwindcss';
-/* Shared base (brand tokens + fluid root + the degraded-mode kill-switch) from
-   @screenly-labs/signage-kit. The app's own @theme + component styles below layer
-   on top; the design identity stays here, per-app. */
+/* Shared base (brand/font tokens + fluid root + the degraded-mode kill-switch),
+   the canonical @font-face set, and the standardized footer badge — all from
+   @screenly-labs/signage-kit. The .stage frame is imported too (canonical), then
+   extended locally with the atlas ground below. The app's own @theme + component
+   styles layer on top; the design identity stays here, per-app. */
 @import '@screenly-labs/signage-kit/styles/preset.css';
+@import '@screenly-labs/signage-kit/styles/fonts.css';
+@import '@screenly-labs/signage-kit/styles/brand.css';
+@import '@screenly-labs/signage-kit/styles/stage.css';
 
-/* Design tokens — also generate utilities (bg-night, text-brass, font-display…). */
+/* Design tokens — also generate utilities (bg-night, text-brass…). The font
+   families (--font-display: Fraunces, --font-sans: Hanken Grotesk) come from the
+   kit preset; override here only to diverge. */
 @theme {
   --color-night: #0b1d2a;
   --color-night-deep: #081521;
@@ -22,40 +29,16 @@
   --color-paper-dim: #93a7b4;
   --color-brass: #d8a657;
   --color-brass-dim: #b07f3f;
-  --font-display: 'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
-  --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
-}
-
-/* Webfonts: self-hosted, vendored from Bun-managed @fontsource (sync-fonts.js).
-   Variable "standard" axis = optical-size + weight. */
-@font-face {
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/static/fonts/fraunces-latin-standard-normal.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Fraunces';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/static/fonts/fraunces-latin-standard-italic.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Hanken Grotesk';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url('/static/fonts/hanken-grotesk-latin-wght-normal.woff2') format('woff2');
 }
 
 @layer base {
-  /* One fluid root drives the whole scale; vw+vh keeps it orientation-neutral
-     so portrait and landscape resolve to the same type size. Children size in
-     rem, so the layout scales cleanly from 480px → 4K with no breakpoints. */
+  /* Tune the kit's fluid root (clamp of vw+vh) for this design; the clamp itself
+     lives in the preset. Children size in rem, so the layout scales cleanly from
+     480px → 4K, portrait and landscape, with no breakpoints. */
   :root {
-    font-size: clamp(17px, 1.05vw + 1.05vh, 56px);
+    --root-min: 17px;
+    --root-gain: 1.05;
+    --root-max: 56px;
   }
 
   body {
@@ -70,16 +53,11 @@
 }
 
 @layer components {
+  /* The canonical frame (position/grid/min-height/padding/overflow) comes from
+     the kit's stage.css; here we only add the atlas ground: a faint meridian
+     grid over a soft radial glow, so the deep navy reads as a globe plate rather
+     than a flat fill. */
   .stage {
-    position: relative;
-    display: grid;
-    place-items: center;
-    min-height: 100vh; /* fallback for engines below the svh floor (~2018 players) */
-    min-height: 100svh;
-    padding: clamp(1.5rem, 6vmin, 4rem);
-    overflow: hidden;
-    /* The atlas ground: a faint meridian grid over a soft radial glow, so the
-       deep navy reads as a globe plate rather than a flat fill. */
     background-image:
       radial-gradient(circle at 50% 38%, rgba(216, 166, 87, 0.08), transparent 60%),
       repeating-linear-gradient(to right, rgba(147, 167, 180, 0.06) 0 1px, transparent 1px 5.5rem),
@@ -241,28 +219,6 @@
   /* Empty note (the common case) takes no vertical space. */
   .reveal__note:empty {
     display: none;
-  }
-
-  .brand {
-    position: fixed;
-    right: clamp(1rem, 3.2vmin, 2.4rem);
-    bottom: clamp(1rem, 3.2vmin, 2.4rem);
-    display: block;
-    opacity: 0.5;
-    transition: opacity 200ms ease;
-    border-radius: 4px;
-    outline-offset: 6px;
-  }
-
-  .brand:hover,
-  .brand:focus-visible {
-    opacity: 0.9;
-  }
-
-  .brand img {
-    display: block;
-    width: auto;
-    height: clamp(13px, 1.3rem, 26px);
   }
 
   /* State overrides MUST live in this layer: the `components` layer outranks
