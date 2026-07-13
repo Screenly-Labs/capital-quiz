@@ -55,6 +55,7 @@
   }
 
   body {
+    min-height: 100vh; /* fallback for engines below the svh floor (~2018 players) */
     min-height: 100svh;
     background-color: var(--color-night);
     color: var(--color-paper);
@@ -69,6 +70,7 @@
     position: relative;
     display: grid;
     place-items: center;
+    min-height: 100vh; /* fallback for engines below the svh floor (~2018 players) */
     min-height: 100svh;
     padding: clamp(1.5rem, 6vmin, 4rem);
     overflow: hidden;
@@ -334,4 +336,18 @@
       transform: translateY(-0.08em);
     }
   }
+}
+
+/* =========================================================================
+   Degraded mode — old/weak signage players (html.legacy set by the inline gate
+   in index.html). Assume the device can't afford animation; drop it entirely.
+   The answer reveal is JS-driven (data-state -> grid-template-rows), so it still
+   reveals when the transition is dropped; it just snaps instead of growing.
+   ========================================================================= */
+html.legacy *,
+html.legacy *::before,
+html.legacy *::after {
+  animation: none !important;
+  transition: none !important;
+  will-change: auto !important;
 }

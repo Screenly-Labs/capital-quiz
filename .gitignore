@@ -13,3 +13,6 @@ scripts/countries.candidate.json
 
 # Output of 'npm pack'
 *.tgz
+
+# Claude Code local worktrees/artifacts
+.claude/
