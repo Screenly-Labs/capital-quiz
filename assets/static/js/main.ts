@@ -8,7 +8,7 @@
 
 // Side-effect import: installs the replaceChildren shim for the older-browser
 // degraded mode. Must stay first so the shim is in place before any render.
-import './polyfills'
+import '@screenly-labs/signage-kit/polyfills'
 import { type Country, formatPopulation, isCountry, pickIndexAvoiding, type Population } from './quiz'
 
 // How long the question stays up before the answer is revealed.
