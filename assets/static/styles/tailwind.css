@@ -8,6 +8,10 @@
    ========================================================================= */
 
 @import 'tailwindcss';
+/* Shared base (brand tokens + fluid root + the degraded-mode kill-switch) from
+   @screenly-labs/signage-kit. The app's own @theme + component styles below layer
+   on top; the design identity stays here, per-app. */
+@import '@screenly-labs/signage-kit/styles/preset.css';
 
 /* Design tokens — also generate utilities (bg-night, text-brass, font-display…). */
 @theme {
@@ -339,15 +343,10 @@
 }
 
 /* =========================================================================
-   Degraded mode — old/weak signage players (html.legacy set by the inline gate
-   in index.html). Assume the device can't afford animation; drop it entirely.
-   The answer reveal is JS-driven (data-state -> grid-template-rows), so it still
-   reveals when the transition is dropped; it just snaps instead of growing.
+   Degraded mode — old/weak signage players (html.legacy set by the shared gate
+   the build injects). The generic kill-switch (drop all animation/transition)
+   comes from @screenly-labs/signage-kit's preset, imported at the top. No
+   app-specific resting rule is needed here: the answer reveal is JS-driven
+   (data-state -> grid-template-rows), so it still reveals when the transition is
+   dropped; it just snaps instead of growing.
    ========================================================================= */
-html.legacy *,
-html.legacy *::before,
-html.legacy *::after {
-  animation: none !important;
-  transition: none !important;
-  will-change: auto !important;
-}
