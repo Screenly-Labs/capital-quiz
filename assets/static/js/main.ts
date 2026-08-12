@@ -9,7 +9,9 @@
 // Side-effect import: installs the replaceChildren shim for the older-browser
 // degraded mode. Must stay first so the shim is in place before any render.
 import '@screenly-labs/signage-kit/polyfills'
+import { trackPlayer } from '@screenly-labs/signage-kit/analytics'
 import { removeScreenlyBranding } from '@screenly-labs/signage-kit/branding'
+import { detectPlayer } from '@screenly-labs/signage-kit/profiler'
 import { type Country, formatPopulation, isCountry, pickIndexAvoiding, type Population } from './quiz'
 
 // How long the question stays up before the answer is revealed.
@@ -103,6 +105,10 @@ const loadCountry = async (): Promise<Country> => {
 
 const init = (): void => {
   removeScreenlyBranding()
+  // Report which player is showing this. A static app can only profile from the
+  // user agent and referrer; the Worker apps additionally read X-Requested-With,
+  // the only signal that names an Android WebView vendor.
+  trackPlayer(detectPlayer(), { app: 'capital-quiz' })
   loadCountry().then((country) => {
     renderQuestion(country)
     setTimeout(() => renderReveal(country), REVEAL_DELAY_MS)
