@@ -11,7 +11,10 @@
         dataLayer.push(arguments)
       }
       gtag('js', new Date())
-      gtag('config', 'G-TBBELPHMHP')
+      // The automatic page view is suppressed because it fires before main.js can
+      // profile the player, so it would carry no player fields. trackPlayer sends it
+      // instead, once the profile is known (sendPageView: true). Set both or neither.
+      gtag('config', 'G-TBBELPHMHP', { send_page_view: false })
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
